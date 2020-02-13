@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: quarkus
+  labels:
+    app: quarkus
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: quarkus
+      labels:
+        app: quarkus
+    spec:
+      containers:
+        - name: quarkus
+          image: uniqe15/quarkus:v1
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: quarkus
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: quarkus
+spec:
+  selector:
+    app: quarkus
+  ports:
+    - port: 80
+      targetPort: 8080
+  type: ClusterIP

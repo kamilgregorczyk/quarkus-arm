@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.acme.NativeExampleResourceIT" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-05T19:33:57" hostname="iMac.local" time="0.553">
+  <properties/>
+  <testcase name="testHelloEndpoint()" classname="org.acme.NativeExampleResourceIT" time="0.553"/>
+  <system-out><![CDATA[Executing [/Users/kamilgregorczyk/IdeaProjects/blog/build/code-with-quarkus-1.0.0-SNAPSHOT-runner, -Dquarkus.http.port=8081, -Dtest.url=http://localhost:8081, -Dquarkus.log.file.path=build/quarkus.log]
+2020-02-05 20:33:57,052 INFO  [io.quarkus] (main) code-with-quarkus 1.0.0-SNAPSHOT (running on Quarkus 1.2.0.Final) started in 0.009s. Listening on: http://0.0.0.0:8081
+2020-02-05 20:33:57,052 INFO  [io.quarkus] (main) Profile prod activated. 
+2020-02-05 20:33:57,052 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

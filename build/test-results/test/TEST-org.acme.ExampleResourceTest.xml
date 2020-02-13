@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.acme.ExampleResourceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-05T19:25:55" hostname="iMac.local" time="0.613">
+  <properties/>
+  <testcase name="testHelloEndpoint()" classname="org.acme.ExampleResourceTest" time="0.613"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[lut 05, 2020 8:25:54 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.0.0.Final
+lut 05, 2020 8:25:55 PM io.quarkus.runtime.Timing printStartupTime
+INFO: Quarkus 1.2.0.Final started in 0.383s. Listening on: http://0.0.0.0:8081
+lut 05, 2020 8:25:55 PM io.quarkus.runtime.Timing printStartupTime
+INFO: Profile test activated. 
+lut 05, 2020 8:25:55 PM io.quarkus.runtime.Timing printStartupTime
+INFO: Installed features: [cdi, resteasy]
+]]></system-err>
+</testsuite>
