@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: quarkus
-          image: uniqe15/quarkus:v1
+          image: uniqe15/quarkus:v2
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
